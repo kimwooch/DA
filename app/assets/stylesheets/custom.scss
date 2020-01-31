@@ -56,18 +56,40 @@ p {
 
 /* header */
 
+#custom{
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 15px;
+    font-weight: 500;    
+    &:hover {
+      white-space: nowrap;
+      color:#34495e;
+      text-decoration: none;
+      -webkit-transition: 0.2s ease;
+      transition: 0.2s ease;
+
+    }
+}
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: bold;
+  font-weight: 700;
   &:hover {
-    color: white;
+    color:#34495e;
     text-decoration: none;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+    white-space: nowrap;
+
   }
 }
 
@@ -96,3 +118,20 @@ footer {
     }
   }
 }
+/* Modify brand and text color */ 
+.navbar-inverse{
+    background: #fff;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+    border-bottom: 3px solid transparent;
+
+}
+
+.img-wrap {
+    position:relative;
+  }
+  .img-wrap .img-overlay {
+    position: absolute;
+    z-index:2;
+    top: 10px;
+    right: 10px;
+  }
