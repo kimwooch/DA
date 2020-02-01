@@ -71,7 +71,7 @@ p {
     float: right;
     margin-right: 10px;
     font-size: 16px;
-    color: black;
+    color: #bbb;
     text-transform: uppercase;
     letter-spacing: -1px;
     padding-top: 15px;
@@ -89,7 +89,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: black;
+  color:#bbb;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -131,10 +131,9 @@ footer {
 }
 /* Modify brand and text color */ 
 .navbar-inverse{
-    background: #fff;
-    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+    background: white;
+    box-shadow: 0 0.125rem 0.25rem 0 white;
     border-bottom: 3px solid transparent;
-
 }
 
 .img-wrap {
