@@ -1,15 +1,4 @@
-# Ruby on Rails Tutorial sample application
-
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](https://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
-
-## License
-
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+# Kevin's Full-Stack Demo Website
 
 ## Getting started
 
@@ -39,3 +28,7 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+##Technical Skill Showcase
+
+This is a dynamic, database-backed web app that is developed using Ruby on Rail framework, strictly folllowing MVC design pattern. My development skills include unit testing, partials on the view, modeling database, etc. The development proces started with Behavioral Driven Development (BDD) and then mostly followed Testing Driven Development (TDD). It has a sign-up page to store properly formated input and returns error message if user provides invaid input.
