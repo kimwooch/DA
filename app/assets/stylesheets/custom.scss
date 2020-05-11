@@ -62,9 +62,13 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  padding-left:10px;
 }
 
-
+.box {
+  display: flex;
+  align-items:center;
+}
 /* header */
 
 #custom{
